@@ -9,7 +9,7 @@
   "preferGlobal": true,
   "scripts": {
     "test": "jest ./test",
-    "cli": "node ./src/cli.js"
+    "cli": "node ./cli.js"
   },
   "repository": {
     "type": "git",

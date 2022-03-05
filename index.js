@@ -1,4 +1,3 @@
-const chalk = require('chalk');
 const fs = require('fs');
 
 function extractLinks(text) {
@@ -12,7 +11,7 @@ function extractLinks(text) {
 }
 
 function onError(err) {
-    console.log(chalk.red(err));
+    console.log(err);
     throw new Error(err.code, 'No such file on path');
 }
 
