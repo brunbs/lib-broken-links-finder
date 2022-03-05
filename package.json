@@ -1,10 +1,10 @@
 {
   "name": "lib-broken-links-finder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "find broken links in yout markdown texts. Just put them in the files folder and run npm run lib-broken-links-finder filepath validate",
   "main": "./cli.js",
   "bin": {
-    "lib-broken-links-finder":"./cli.js"
+    "lib-broken-links-finder": "./cli.js"
   },
   "preferGlobal": true,
   "scripts": {
@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/brunbs/lib-broken-links-finder.git"
   },
-  "keywords": ["markdown", "url"],
+  "keywords": [
+    "markdown",
+    "url"
+  ],
   "author": "Bruno Barbosa Affeldt",
   "license": "ISC",
   "bugs": {
