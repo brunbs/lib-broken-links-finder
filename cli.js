@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const getFile = require('./index');
 const validateURLs = require('./http-validation');
 
